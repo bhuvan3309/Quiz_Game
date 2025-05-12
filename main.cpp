@@ -1,7 +1,7 @@
 #include <iostream>
 #include<Windows.h>
 #include<conio.h>
-#include"game.h"  //USER DEFINED HEADER
+#include"game.h"  
 
 using namespace std;
 int main()
@@ -88,7 +88,7 @@ start:
             }
             break;
         }
-        case '3': //DETAILS ABOUT THE PROJECT
+        case '3': //DETAILS 
         {
             system("cls");
             cout << "\n\n\n\t\t This quiz game mini c++ project is coded ANOOP PRATAP SINGH. The main objective of the\n\t\t";
@@ -105,7 +105,7 @@ start:
             else
                 exit(0);
         }
-        case '4': //FOR EXITING THE GAME
+        case '4': //FOR EXIT
         {
             system("cls");
             cout << "\n\n\n\n\t\t\t\tARE YOUR SURE!YOU WANT TO EXIT THE GAME?(Y/N)"; //FOR CONFIRMATION
