@@ -5,7 +5,7 @@
 #include<fstream>
 #include<Windows.h>
 using namespace std;
-char user[20], pass[20]; //FOR READING USER AND PASS FROM FILE
+char user[20], pass[20]; 
 string question, option1, option2, option3, option4;
 int abc = 0, score, tscore, option, answer;
 int login()
@@ -36,7 +36,7 @@ int login()
         }
     }
     ifstream f;
-    char username[20], password[20]; //FOR STORING USER ENTERED USERNAME AND PASSWORD
+    char username[20], password[20]; //FOR STORING USERNAME AND PASSWORD
     int n = 0;
     f.open("users.txt",ios::in);
     if (f.is_open()) //IF FILE OPENS
@@ -66,7 +66,7 @@ int signup()
     int alpha = 0;
     ifstream file; //FOR READING FROM THE FILE
     ofstream newuser; //FOR WRITING INTO THE FILE
-    char username[20], password[20], passwordconfirm[20]; //FOR USER ENTERED USERNAME AND PASSWORD AND FOR PASSWORD CONFIRMATION
+    char username[20], password[20], passwordconfirm[20]; //FOR PASSWORD CONFIRMATION
     file.open("users.txt", ifstream::in);
     newuser.open("users.txt", ofstream::out||ofstream::app);
     bool uservalid = false;
