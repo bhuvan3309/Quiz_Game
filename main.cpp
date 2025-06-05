@@ -13,7 +13,7 @@ int main()
 start:
     do {
         system("cls");
-        cout << "\n\n\n\n\t\t\t\t\tWELCOME TO THE QUIZ!\n\t\t\t\t\tCREATED BY ANOOP PRATAP SINGH";   //FOR MENU
+        cout << "\n\n\n\n\t\t\t\t\tWELCOME TO THE QUIZ!\n\t\t\t\t\tCREATED BY Bhuvan Ranjan";   //FOR MENU
         cout << "\n\n\t\t\t\t1.LOGIN\n\t\t\t\t2.SIGNUP\n\t\t\t\t3.DETAILS\n\t\t\t\t4.EXIT";
         cout << "\n\t\t\t\tENTER YOUR CHOICE"; 
         n = _getch();
